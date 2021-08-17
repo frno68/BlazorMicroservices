@@ -1,0 +1,394 @@
+/* _content/BlazorApp1/Shared/MainLayout.razor.rz.scp.css */
+.page[b-45rkf8v3vv] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.main[b-45rkf8v3vv] {
+    flex: 1;
+}
+
+.sidebar[b-45rkf8v3vv] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-45rkf8v3vv] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-45rkf8v3vv]  a, .top-row .btn-link[b-45rkf8v3vv] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+    .top-row a:first-child[b-45rkf8v3vv] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-45rkf8v3vv] {
+        display: none;
+    }
+
+    .top-row.auth[b-45rkf8v3vv] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-45rkf8v3vv], .top-row .btn-link[b-45rkf8v3vv] {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-45rkf8v3vv] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-45rkf8v3vv] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-45rkf8v3vv] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .main > div[b-45rkf8v3vv] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* _content/BlazorApp1/Shared/Menu.razor.rz.scp.css */
+.navbar-toggler[b-35brlrxcjq] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-35brlrxcjq] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-35brlrxcjq] {
+    font-size: 1.1rem;
+}
+
+.oi[b-35brlrxcjq] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-35brlrxcjq] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-35brlrxcjq] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-35brlrxcjq] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-35brlrxcjq]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-35brlrxcjq]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-35brlrxcjq]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-35brlrxcjq] {
+        display: none;
+    }
+
+    .collapse[b-35brlrxcjq] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}
+/* _content/BlazorApp1/Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-b5wscdn8ts] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-b5wscdn8ts] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-b5wscdn8ts] {
+    font-size: 1.1rem;
+}
+
+.oi[b-b5wscdn8ts] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-b5wscdn8ts] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-b5wscdn8ts] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-b5wscdn8ts] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-b5wscdn8ts]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-b5wscdn8ts]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-b5wscdn8ts]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-b5wscdn8ts] {
+        display: none;
+    }
+
+    .collapse[b-b5wscdn8ts] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}
+/* _content/BlazorApp2/Shared/MainLayout.razor.rz.scp.css */
+.page[b-g438hy8nqh] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.main[b-g438hy8nqh] {
+    flex: 1;
+}
+
+.sidebar[b-g438hy8nqh] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-g438hy8nqh] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-g438hy8nqh]  a, .top-row .btn-link[b-g438hy8nqh] {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+    }
+
+    .top-row a:first-child[b-g438hy8nqh] {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-g438hy8nqh] {
+        display: none;
+    }
+
+    .top-row.auth[b-g438hy8nqh] {
+        justify-content: space-between;
+    }
+
+    .top-row a[b-g438hy8nqh], .top-row .btn-link[b-g438hy8nqh] {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-g438hy8nqh] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-g438hy8nqh] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-g438hy8nqh] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .main > div[b-g438hy8nqh] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* _content/BlazorApp2/Shared/Menu.razor.rz.scp.css */
+.navbar-toggler[b-rwdzeo5kxe] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-rwdzeo5kxe] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-rwdzeo5kxe] {
+    font-size: 1.1rem;
+}
+
+.oi[b-rwdzeo5kxe] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-rwdzeo5kxe] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-rwdzeo5kxe] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-rwdzeo5kxe] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-rwdzeo5kxe]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-rwdzeo5kxe]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-rwdzeo5kxe]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-rwdzeo5kxe] {
+        display: none;
+    }
+
+    .collapse[b-rwdzeo5kxe] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}
+/* _content/BlazorApp2/Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-8klt50xt3z] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-8klt50xt3z] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-8klt50xt3z] {
+    font-size: 1.1rem;
+}
+
+.oi[b-8klt50xt3z] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-8klt50xt3z] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-8klt50xt3z] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-8klt50xt3z] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-8klt50xt3z]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-8klt50xt3z]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-8klt50xt3z]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-8klt50xt3z] {
+        display: none;
+    }
+
+    .collapse[b-8klt50xt3z] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}
